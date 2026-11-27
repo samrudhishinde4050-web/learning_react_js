@@ -6,6 +6,7 @@ import Home from './component/Home'
 import About from './component/About'
 import Service from './component/Service'
 import Contact from './component/Contact'
+import Footer from './component/Footer'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About/>
       <Service/>
       <Contact/>
+      <Footer/>
 
       
 

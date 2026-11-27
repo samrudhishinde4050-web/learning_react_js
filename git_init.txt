@@ -1,0 +1,128 @@
+Microsoft Windows [Version 10.0.26200.9711]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\github_project>npm create vite@latest
+
+> npx
+> cva
+
+
+create-vite v9.3.4
+
+|
+o  Project name:
+|  my_website_project
+|
+o  Select a framework:
+|  React
+|
+o  Select a variant:
+|  JavaScript
+|
+o  Which linter to use?
+|  ESLint
+|
+o  Install with npm and start now?
+|  Yes
+|
+o  Scaffolding project in C:\github_project\my_website_project...
+|
+o  Installing dependencies with npm...
+
+added 144 packages, and audited 145 packages in 22s
+
+31 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+|
+o  Starting dev server...
+
+> my_website_project@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+
+  VITE v8.3.8  ready in 397 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Terminate batch job (Y/N)? y
+
+C:\github_project>cd my_website_project
+
+C:\github_project\my_website_project>git init
+Initialized empty Git repository in C:/github_project/my_website_project/.git/
+
+C:\github_project\my_website_project>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        eslint.config.js
+        index.html
+        package-lock.json
+        package.json
+        public/
+        src/
+        vite.config.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\github_project\my_website_project>git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'eslint.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/icons.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/assets/vite.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.js', LF will be replaced by CRLF the next time Git touches it
+
+C:\github_project\my_website_project>git commit -m "Initalize created Vite React Project"
+[master (root-commit) e086d7a] Initalize created Vite React Project
+ 16 files changed, 3112 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 eslint.config.js
+ create mode 100644 index.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.svg
+ create mode 100644 public/icons.svg
+ create mode 100644 src/App.css
+ create mode 100644 src/App.jsx
+ create mode 100644 src/assets/hero.png
+ create mode 100644 src/assets/react.svg
+ create mode 100644 src/assets/vite.svg
+ create mode 100644 src/index.css
+ create mode 100644 src/main.jsx
+ create mode 100644 vite.config.js
+
+C:\github_project\my_website_project>git branch -M main
+
+C:\github_project\my_website_project>git remote add origin https://github.com/samrudhishinde4050-web/my_website_project.git
+
+C:\github_project\my_website_project>git push -u origin main
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 44.94 KiB | 4.49 MiB/s, done.
+Total 21 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/samrudhishinde4050-web/my_website_project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\github_project\my_website_project>

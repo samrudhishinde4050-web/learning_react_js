@@ -1,0 +1,25 @@
+Frontend Library : React
+Build Tool : Vite
+Language : JavaScript (Es6+)
+Styling : HTMl, CSS, Bootstrap
+Package Manger : NPM
+Code Editor : Vs code
+API Testing :  https://hoppsctch.io/
+
+
+Why do we use React?
+1. Component Based Architecture
+2. Reusable Components
+3. Fast and Efficient UI updates
+4. Easy state Mangements
+5. Supports Single Page Applications
+
+
+Install Node
+node -v
+npm -v
+
+
+What is Vite?
+Vite is a modern frontend build tools used to create and run React Applications.
+
